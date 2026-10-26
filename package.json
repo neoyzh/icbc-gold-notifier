@@ -1,0 +1,15 @@
+{
+  "name": "icbc-gold-notifier",
+  "version": "0.1.0",
+  "private": true,
+  "description": "监控工商银行如意金积存价格变动，变动时通过 WxPusher 推送",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dry": "DRY_RUN=1 node src/index.js",
+    "once": "RUN_ONCE=1 node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

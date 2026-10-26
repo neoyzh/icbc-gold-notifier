@@ -1,0 +1,4 @@
+node_modules/
+.env
+.icbc-watch-state*.json
+*.log
